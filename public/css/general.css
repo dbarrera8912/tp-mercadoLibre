@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:var(--colorAmarillo) ;
+}
+li {
+  list-style: none;
+}
+ul, ol {
+  padding: 0;
+}
