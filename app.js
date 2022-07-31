@@ -11,5 +11,5 @@ app.get('/', (req,res) => res.sendFile(path.join(__dirname, "views", "home.html"
 
 
 
-app.listen(3030,() => console.log('Server running in htpp://localhost:' + port))
+app.listen(3030,() => console.log('Server running in http://localhost:' + port))
 

@@ -1,0 +1,105 @@
+/* header */
+.home__header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.logo {
+  width: 200px;
+  margin: 40px;
+}
+
+
+
+.home__header__buscador {
+  display: flex;
+  padding-left: 10px;
+
+
+
+}
+
+.texto {
+  font-size: 15px;
+  display: flex;
+}
+
+
+.icono {
+  width: 30px;
+  height: 30px;
+
+
+}
+
+
+.cuotas {
+  width: 100%;
+  margin-left: 40px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+
+}
+
+.home__header--lista {
+  margin: 10px;
+  margin-bottom: -2px;
+}
+
+.logi {
+  margin: 10px;
+}
+
+
+.home__header__burger {
+  width: 30px;
+  height: 35px;
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: #1259c3;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-left: 5px;
+
+
+
+}
+
+.fa-bars {
+  color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+
+
+
+}
+
+.banner img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+
+@media (min-width: 320px) {}
+
+@media (min-width: 768px) {
+
+  .cuotas {
+    width: 100%;
+    margin-left: 300px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  
+  }
+  .home__header__burger {
+    display: none;
+  }
+
+}

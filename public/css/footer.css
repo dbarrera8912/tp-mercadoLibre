@@ -1,0 +1,40 @@
+
+/* FOOTER */
+.footer__container {
+    background-color:  #ebebeb;
+    width: 100%;
+    padding-top: 5px;
+}
+.footer__container__tarjeta {
+    background-color: white;
+    width: 90%;
+    margin: 0px auto;
+}
+.footer__container__tarjeta article {
+    width: 80%;
+    margin: 20px;
+}
+.footer__container__tarjeta article i {
+    color:  #1259c3;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 100px;
+    margin-bottom: 15px;
+}
+.footer__container__tarjeta article h3 {
+width: 100%;
+font-size: 15px;
+margin-left: 20px;
+margin-bottom: 15px;
+} 
+
+.footer__container__tarjeta article p {
+    width: 100%;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.footer__srl {
+    width: 100%;
+    font-size: 15px;
+}
