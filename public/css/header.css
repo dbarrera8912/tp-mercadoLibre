@@ -1,46 +1,53 @@
 /* header */
 .home__header {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+
   width: 100%;
 }
 
+.home__heder__logo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 30px;
+
+}
 
 .logo {
-  width: 200px;
-  margin: 40px;
+  width: 50%;
+  padding-right: 15px;
+
+
 }
 
 
 
 .home__header__buscador {
-  display: flex;
-  padding-left: 10px;
-
-
+  width: 50%;
+  position: relative;
+}
+.home__header__buscador input {
+height: 30px;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  color: var(--colorGrisoscuro);
+  width: 20px;
+  height: 20px;
+  left: 125px;
+  top: 42%;
+  transform: translateY(-50%);
 
 }
 
-.texto {
-  font-size: 15px;
-  display: flex;
-}
 
 
-.icono {
-  width: 30px;
-  height: 30px;
-
-
-}
 
 
 .cuotas {
   width: 100%;
-  margin-left: 40px;
-  font-size: 12px;
-  padding-top: 10px;
+  margin-left: 20px;
+  font-size: 11px;
+  text-align: center;
   padding-bottom: 25px;
 
 }
@@ -56,14 +63,14 @@
 
 
 .home__header__burger {
-  width: 30px;
+  width: 35px;
   height: 35px;
   border: solid 1px;
   border-radius: 5px;
   background-color: #1259c3;
   margin: 0 auto;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 8px;
+  padding-left: 8px;
 
 
 
@@ -73,7 +80,8 @@
   color: white;
   width: 30px;
   height: 30px;
-  font-size: 20px;
+  font-size: 18px;
+  margin: 0 auto;
 
 
 
@@ -86,20 +94,93 @@
 }
 
 
-@media (min-width: 320px) {}
+
 
 @media (min-width: 768px) {
 
+
+  .home__heder__logo {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+
+
+  }
+
+  .logo {
+    width: 30%;
+    padding-right: 5px;
+
+
+
+  }
+
+  .home__header__buscador {
+    width: 30%;
+
+
+
+
+  }
+  .home__header__buscador input {
+width: 100%;
+
+
+    }
+
+  .fa-magnifying-glass {
+    color: var(--colorGrisoscuro);
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    left: 200px;
+
+  
+
+  }
+
   .cuotas {
     width: 100%;
-    margin-left: 300px;
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 25px;
-  
+    font-size: 11px;
+    padding-top: 27px;
+
+    text-align: center;
   }
+
   .home__header__burger {
     display: none;
   }
+  .home__listas {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .home__listas ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
 
+  }
+
+}
+@media (min-width: 1024px) {
+  .fa-magnifying-glass {
+    color: var(--colorGrisoscuro);
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    left: 260px;
+  }
+  .cuotas {
+    width: 100%;
+    font-size: 15px;
+    padding-top: 27px;
+
+    text-align: center;
+  }
 }

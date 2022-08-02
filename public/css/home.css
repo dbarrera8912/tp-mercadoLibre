@@ -1,11 +1,28 @@
+
+
+
+
 .home {
     width: 100%;
     background-color: #ebebeb;
     padding-bottom: 20px;
 }
+
+
+.home h2 {
+    width: 100%;
+    color: #666;
+    font-size: 17px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .home__main__cotainer {
     width: 90%;
     margin: 0 auto;
+    
    
 }
 .home__main__cotainer article {
@@ -18,27 +35,44 @@
    width: 100%;
 
 }
-.home__main__cotainer div{
+.home__main__cotainer div {
     border-top: 1px solid #ebebeb;
     padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    position:relative;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
 }
+.precio {
+    width: 30%;
+    display: inline-block;
+}
+
 .home__main__cotainer div i {
     color:  #39b54a;
-    border: #39b54a 1px solid;
-    border-radius: 50%;
+    display: block;
+    font-size: 16px;
     padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
 }
+ 
+
+  
 .off {
+    width: 60%;
     color: #39b54a;
-}
-.home__main__cotainer h1 {
-    width: 100%;
-    color: #666;
-    font-size: 17px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    display: inline-block;
 }
 
 
@@ -52,13 +86,22 @@
 }
 
 
-@media (min-width: 320px) {
+ 
     .home__main__cotainer h4 {
         display:none;
+        color: #666;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-}
-@media (min-width: 768px) {
+     
 
+@media (min-width: 768px) {
+    .home__main__cotainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
     .home__main__cotainer h4 {
         display: contents;
     }
@@ -66,8 +109,9 @@
         margin-bottom: 10px; 
         background-color: white;
        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       width: 47%;
     }
-    .home__main__cotainer h1 {
+    .home__main__cotainer h2 {
         width: 100%;
         color: #666;
         font-size: 30px;
@@ -89,7 +133,15 @@
 }
 
 @media (min-width: 1024px) {
-    
+    .home__main__cotainer article {
+        margin-bottom: 10px; 
+        background-color: white;
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       width: 24%;
+    }
+    .off {
+       text-align: center;
+    }
 }
 
 
